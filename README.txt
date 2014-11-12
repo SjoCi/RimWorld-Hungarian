@@ -26,7 +26,7 @@ U - ConceptDefs.xml
 T - Credits.xml
 T - Dates.xml
 U - Designators.xml
-D - DialogsVarious.xml - ???
+D - DialogsVarious.xml - ??? (checking..., need input)
 T - DialogTrees.xml
 U - Enums.xml
 U - FloatMenu.xml
