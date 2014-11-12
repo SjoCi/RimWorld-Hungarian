@@ -1,45 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <Confirm>Jóváhagyás</Confirm>
   <GoBack>Vissza</GoBack>
   <OK>OK</OK>
 
-  <!-- Save/load -->
+  <!-- Save/load --> <!-- %1 ~1 -->
   <SaveGameButton>Mentés</SaveGameButton>
   <OverwriteButton>Felülír</OverwriteButton>
   <LoadGameButton>Betöltés</LoadGameButton>
-  <ConfirmDelete>tényleg töröljük a {0}-t?</ConfirmDelete>
-  <DeleteThisSavegame>Ennek a mentésnek a törlése.</DeleteThisSavegame>
+  <!-- "Tényleg..." "tényleg..." helyett --><ConfirmDelete>Tényleg töröljük a {0}-t?</ConfirmDelete>
+  <!-- "Ezen mentés törlése."??? --><DeleteThisSavegame>Ennek a mentésnek a törlése.</DeleteThisSavegame>
   <SavedAs>Elmentve, mint {0}.</SavedAs>
   <NeedAName>Adj egy nevet.</NeedAName>
   <LoadingLongEvent>Töltés...</LoadingLongEvent>
 
-  <!-- Colony naming-->
+  <!-- Colony naming--> <!-- ?all -->
   <NameColonyMessage>Mindenki tudja, hogy nem akarsz sokáig maradni ezen a sziklán, de {0} azt javasolja, hogy azért adhatnátok a kolóniának egy nevet.\n\nHogy nevezzétek el?</NameColonyMessage>
   <ColonyGainsName>A kolónia neve mostantól {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Ez a kolónia név nem megfelelő.</ColonyNameIsInvalid>
 
-  <!-- Zone naming -->
+  <!-- Zone naming --> <!-- !1 -->
   <ZoneGainsName>A zóna neve már {0}.</ZoneGainsName>
-  <ZoneNameIsInvalid>Kérlek adj egy megfelelő zóna nevet.</ZoneNameIsInvalid>
+  <!-- <ZoneNameInvalid> <ZoneNameIsInvalid> helyett --><ZoneNameIsInvalid>Kérlek adj egy megfelelő zóna nevet.</ZoneNameIsInvalid>
 
-  <!-- Pawn naming -->
+  <!-- Pawn naming --> <!-- check -->
   <PawnGainsName>Az embered becene mostantól {0}.</PawnGainsName>
 
-  <!-- Save game incompatible warning -->
+  <!-- Save game incompatible warning --> <!-- ?all -->
   <SaveGameIncompatibleWarningText>Verzió hiba: A térkép ezzel a játékverzióval volt elmentve {0}, most pedig a {1} verzió fut.\n\n Ez betöltve valószínűleg bugokat és fagyást fog előidézni.</SaveGameIncompatibleWarningText>
   <SaveGameIncompatibleWarningTitle>Mentés inkompatibilitás</SaveGameIncompatibleWarningTitle>
 
-  <!-- Resolution change dialog -->
+  <!-- Resolution change dialog --> <!-- check -->
   <ConfirmResolutionChange>Megváltoztattad a felbontást. Megfelelő az új?\n\nAutomatikus visszaállítás {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Megtart</ResolutionKeep>
   <ResolutionRevert>Visszaállítás</ResolutionRevert>
 
-  <!-- Overview -->
-  <OverviewOf>Jellemzők {0}</OverviewOf>
+  <!-- Overview --> <!-- ~1 -->
+  <!-- "Jellemzők {0}" ez a kolónia jellemzői, áttekintésnél a fejléc, pl.: "Új Remény jellemzői", ahol "Új Remény"={0} a kolónia neve --><OverviewOf>{0} jellemzői</OverviewOf> 
 
-  <!-- Research -->
+  <!-- Research --> <!-- check -->
   <Research>Kutatás</Research>
   <Researched>Felfedezve</Researched>
   <Unresearched>Ismeretlen</Unresearched>
@@ -47,28 +47,28 @@
   <InProgress>Folyamatban</InProgress>
   <ResearchMenuWithoutBench>Amíg nem építesz egy Kutató Padot, addig az embereid nem lesznek képesek elkezdeni a kutatást.\n\nÁmbár addig is tudsz itt nézelődni és már most is választhatsz kutatási projektet.</ResearchMenuWithoutBench>
 
-  <!-- Advanced game start options -->
-  <MapSizePerformanceWarning>FIGYELEM: A teljesítmény leromolhat nagyobb térkép méreteknél, hacsaknem a számítógéped kimondottan erős.\n\nHa gyenge géped van, válaszd a Kicsit.\n\nA Ludeonicrous méret nincs tesztelve és szinte teljesen biztosan nem lesz jól játszható.</MapSizePerformanceWarning>
+  <!-- Advanced game start options --><!-- ~2 -->
+  <!-- "Ludeoniális"??? --><MapSizePerformanceWarning>FIGYELEM: A teljesítmény leromolhat nagyobb térkép méreteknél, hacsaknem a számítógéped kimondottan erős.\n\nHa gyenge géped van, válaszd a Kicsit.\n\nA Ludeonicrous méret nincs tesztelve és szinte teljesen biztosan nem lesz jól játszható.</MapSizePerformanceWarning>
   <MapSize>Térkép méret</MapSize>
   <MapSizeDesc>{0}x{0} ({1} néygzet)</MapSizeDesc>
   <MapSizeSmall>Kicsi</MapSizeSmall>
   <MapSizeMedium>Közepes</MapSizeMedium>
   <MapSizeLarge>Nagy</MapSizeLarge>
-  <MapSizeExtreme>Ludeonicrous</MapSizeExtreme>
+  <!-- "Ludeoniális"??? --><MapSizeExtreme>Ludeonicrous</MapSizeExtreme>
 
-  <!-- Bill config -->
+  <!-- Bill config --><!-- %1 ?3 ~1 !1 -->
   <Suspended>Felfüggesztve</Suspended>
   <NotSuspended>Nincs felfüggesztve</NotSuspended>
-  <SuspendedAllCaps>FEFÜGGESZTVE</SuspendedAllCaps>
+  <!-- "FEFÜGGESZTVE" typo és X --><SuspendedAllCaps>FELFÜGGESZTVE</SuspendedAllCaps>
   <RepeatCount>Ismétlés: {0}</RepeatCount>
   <Forever>Örökké</Forever>
   <IngredientSearchRadius>Hozzávalók keresési sugara</IngredientSearchRadius>
   <TargetCount>Ennyi darab legyen belőle: {0}</TargetCount>
-  <Infinite>Végtelen</Infinite>
-  <RecipeCannotHaveTargetCount>(Ennek a receptnek nem lehet célösszege, mert több, mint egy vagy megjósolhatatlan, hogy mennyi készül belőle.)</RecipeCannotHaveTargetCount>
+  <!-- nem lelt --><Infinite>Végtelen</Infinite>
+  <!-- nem lelt --><RecipeCannotHaveTargetCount>(Ennek a receptnek nem lehet célösszege, mert több, mint egy vagy megjósolhatatlan, hogy mennyi készül belőle.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Engedélyezett összetevők</PermittedIngredients>
   <MinimumSkills>Minimum készség:</MinimumSkills>
-  <BillRequires>Szükséges??? {0} {1}</BillRequires>
+  <!-- "Szükséges???" "Kell hozzá:" --><BillRequires>Kell hozzá: {0} {1}</BillRequires>
   <UsableIngredients>felhasználható összetevők</UsableIngredients>
   <DoXTimes>X darab készítése</DoXTimes>
   <DoUntilYouHaveX>Gyártás X darabig</DoUntilYouHaveX>
@@ -76,46 +76,46 @@
   <BillRepeatTargetCountShort>{0}-ig</BillRepeatTargetCountShort>
   <BillStoreMode_DropOnFloor>Kerüljön a földre</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>Kerüljön a legjobb raktárba</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>Kerüljön a legközelebbi raktárba</BillStoreMode_NearestStockpileAnyPriority>
+  <!-- nem lelt --><BillStoreMode_NearestStockpileAnyPriority>Kerüljön a legközelebbi raktárba</BillStoreMode_NearestStockpileAnyPriority>
 
-  <!-- Def Card -->
+  <!-- Def Card --><!-- ?5 %2 (!1) ~2 +1 -->
   <Type>Típus</Type>
   <GunType>Fegyver</GunType>
   <PlantType>Növény</PlantType>
   <FoodType>Étel</FoodType>
   <HumanType>Ember</HumanType>
   <AnimalType>Állat</AnimalType>
-  <MechanoidType>Mechanoid</MechanoidType>
+  <!-- nem lelt --><MechanoidType>Mechanoid</MechanoidType>
   <Damage>Sebzés</Damage>
   <Accuracy>Pontosság</Accuracy>
   <BurstShotCount>Sorozatlövés száma</BurstShotCount>
   <WarmupTime>Felkészülés</WarmupTime>
   <CooldownTime>Szünet</CooldownTime>
-  <BurstShotFireRate>Sorozat arány???</BurstShotFireRate>
+  <!-- "Tűzgyorsaság" (by wikipedia) "Sorozat arány???" --><BurstShotFireRate>Tűzgyorsaság</BurstShotFireRate>
   <Range>Távolság</Range>
-  <GrowsWild>Vadon terem</GrowsWild>
+  <!-- nem lelt --><GrowsWild>Vadon terem</GrowsWild>
   <Harvestable>Begyűjthető</Harvestable>
   <LimitedLifespan>Korlátozott élettartam</LimitedLifespan>
   <GrowingTime>Növekedés ideje</GrowingTime>
   <Days>nap</Days>
   <FertilityRequirement>Termékenységi követelmény</FertilityRequirement>
-  <LightRequirement>fény követelmény</LightRequirement>
+  <!-- Fény... typo --><LightRequirement>Fény követelmény</LightRequirement>
   <Attributes>Tulajdonságok</Attributes>
   <LifeSpan>Élettartam</LifeSpan>
   <Nutrition>Tápérték</Nutrition>
   <FoodQuality>Étel minősége</FoodQuality>
   <WalkSpeedProperty>Mozgás sebessége</WalkSpeedProperty>
-  <MeleeDamage>Közelharc sebzése</MeleeDamage>
+  <!-- "Közelharci..." "Közelharc..." helyett --><MeleeDamage>Közelharci sebzése</MeleeDamage>
   <MeatAmount>Hús mennyisége</MeatAmount>
   <MinFoodQuality>Min. étel minőség</MinFoodQuality>
   <Diet>Diéta</Diet>
-  <RecruitDifficulty>Toborzási nehézség</RecruitDifficulty>
-  <baseMarketValue>Alap ár</baseMarketValue>
-  <Covers>Covers</Covers>
-  <NaturalArmorCovers>Természetes páncélzat takarja</NaturalArmorCovers>
-  <BodyPartEfficiency>Testrész hatékonság</BodyPartEfficiency>
+  <RecruitDifficulty>Toborzási nehézség</RecruitDifficulty><!-- <RecruitmentDifficulty> <RecruitDifficulty> hmm... mind kettő kell --><RecruitmentDifficulty>Toborzási nehézség</RecruitmentDifficulty> 
+  <!-- nem lelt --><baseMarketValue>Alap ár</baseMarketValue>
+  <!-- "Covers" helyett "Takar" ruhánál adja be, hogy milyen részen hordja pl.: Nadrág-nál "Takar: bal láb, jobb láb" --><Covers>Takar</Covers> 
+  <!-- nem lelt --><NaturalArmorCovers>Természetes páncélzat takarja</NaturalArmorCovers>
+  <!-- "hátékonyság" typo --><BodyPartEfficiency>Testrész hatékonyság</BodyPartEfficiency>
 
-  <!-- Trade -->
+  <!-- Trade --> <!-- ?all -->
   <DragToTrade>Mozgasd a kereskedéshez</DragToTrade>
   <BuyPriceDesc>Ennyit fizetsz, hogy megvehesd.</BuyPriceDesc>
   <SellPriceDesc>Ennyit kapsz, ha eladod.</SellPriceDesc>
@@ -131,10 +131,10 @@
   <ColonyHasNoMore>Nincs több eladó.</ColonyHasNoMore>
   <TraderWillNotTrade>A kereskedő nem akarja megvenni ezt a terméket.</TraderWillNotTrade>
 
-  <!-- Comms -->
+  <!-- Comms --> <!-- check -->
   <SocialSkillIs>Szociális készség: {0}</SocialSkillIs>
 
-  <!-- Stats report -->
+  <!-- Stats report --> <!-- ?all -->
   <StatsReport_BaseValue>Alap érték</StatsReport_BaseValue>
   <StatsReport_RelevantTraits>Fontos jellemző</StatsReport_RelevantTraits>
   <StatsReport_RelevantGear>Fontos felszerelés</StatsReport_RelevantGear>
@@ -147,11 +147,11 @@
   <StatsReport_PostProcessed>???Post-processed curved???</StatsReport_PostProcessed>
   <StatsReport_FinalValue>Végső érték</StatsReport_FinalValue>
 
-  <!--Research-->
+  <!--Research--> <!-- ?all -->
   <ResearchFinished>Kutatás befejezve: {0}</ResearchFinished>
   <ResearchScreen>Kutatási képernyő</ResearchScreen>
 
-  <!--HistoryUpload-->
+  <!--HistoryUpload--> <!-- ?all -->
   <HistoryUploadMessage>Szeretnéd feltölteni a játékod adatait a RimWorld szerverre, hogy ezzel segítsd a fejlesztőket, hogy kiegyensúllyozzák a játékot? Ha beleegyezzel, az adatok feltöltésre kerülnek minden {0} naponta (és néhány más ritka esetben, mint a játék vége). Ezek a beállítások később is megváltoztathatóak a beállítások menüben.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Mégha a történések anonim módon lesznek is elküldve, adhatod hozzá a nevedet is.</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>A játék adatok feltöltésének engedélyezése</HistoryUploadYes>
